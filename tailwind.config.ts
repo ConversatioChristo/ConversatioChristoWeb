@@ -12,6 +12,10 @@ export default {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      display: ['"Playfair Display"', 'serif'],
+      body: ['"Source Sans 3"', 'sans-serif'],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -56,6 +60,11 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        church: {
+          warm: "hsl(var(--church-warm))",
+          gold: "hsl(var(--church-gold))",
+          dark: "hsl(var(--church-dark))",
         },
       },
       borderRadius: {
