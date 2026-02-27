@@ -26,7 +26,7 @@ const WhatWeDoSection = () => (
     <div className="w-full text-left mt-4">
       <ul className="list-none p-0 max-w-[510px] mx-auto space-y-3">
         {[
-          "Multimedia/Live Concerts: Engage communities in praise and worship of God through ancient spirituality and prayerful contemplation of Gregorian Chant and Latin sacred music.",
+          "Multimedia/Live Sacred Music: Engage communities in praise and worship of God through ancient spirituality and prayerful contemplation of Gregorian Chant and Latin sacred music.",
           "Musical Revival: Bring to our contemporary world the rediscovery of Medieval, Gregorian, and Renaissance Latin sacred music artistry and polyphonic brilliance.",
           "Schola: Teach and guide willing hearts to encounter and experience the Catholic Church's rich musical heritage.",
         ].map((text, i) => (
