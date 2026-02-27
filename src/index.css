@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,39 +6,35 @@
 
 @layer base {
   :root {
-    --background: 40 33% 96%;
-    --foreground: 25 20% 16%;
+    --background: 30 40% 88%;
+    --foreground: 20 60% 18%;
 
-    --card: 40 40% 98%;
-    --card-foreground: 25 20% 16%;
+    --card: 30 40% 88%;
+    --card-foreground: 20 60% 18%;
 
-    --popover: 40 40% 98%;
-    --popover-foreground: 25 20% 16%;
+    --popover: 30 40% 88%;
+    --popover-foreground: 20 60% 18%;
 
-    --primary: 36 60% 42%;
-    --primary-foreground: 40 33% 96%;
+    --primary: 25 70% 22%;
+    --primary-foreground: 40 50% 92%;
 
-    --secondary: 30 25% 88%;
-    --secondary-foreground: 25 20% 16%;
+    --secondary: 35 30% 80%;
+    --secondary-foreground: 20 60% 18%;
 
-    --muted: 35 20% 92%;
-    --muted-foreground: 25 10% 46%;
+    --muted: 35 25% 82%;
+    --muted-foreground: 20 30% 40%;
 
-    --accent: 36 60% 42%;
-    --accent-foreground: 40 33% 96%;
+    --accent: 35 70% 40%;
+    --accent-foreground: 40 50% 92%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 35 20% 86%;
-    --input: 35 20% 86%;
-    --ring: 36 60% 42%;
+    --border: 30 25% 75%;
+    --input: 30 25% 75%;
+    --ring: 25 70% 22%;
 
     --radius: 0.5rem;
-
-    --church-warm: 30 30% 94%;
-    --church-gold: 40 70% 50%;
-    --church-dark: 25 30% 12%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -51,28 +47,25 @@
   }
 
   .dark {
-    --background: 25 30% 8%;
-    --foreground: 40 33% 96%;
-    --card: 25 25% 12%;
-    --card-foreground: 40 33% 96%;
-    --popover: 25 25% 12%;
-    --popover-foreground: 40 33% 96%;
-    --primary: 40 70% 50%;
-    --primary-foreground: 25 30% 8%;
-    --secondary: 25 20% 18%;
-    --secondary-foreground: 40 33% 96%;
-    --muted: 25 15% 18%;
+    --background: 20 30% 10%;
+    --foreground: 40 50% 92%;
+    --card: 20 30% 10%;
+    --card-foreground: 40 50% 92%;
+    --popover: 20 30% 10%;
+    --popover-foreground: 40 50% 92%;
+    --primary: 35 70% 50%;
+    --primary-foreground: 20 30% 10%;
+    --secondary: 20 20% 18%;
+    --secondary-foreground: 40 50% 92%;
+    --muted: 20 15% 18%;
     --muted-foreground: 35 15% 60%;
-    --accent: 40 70% 50%;
-    --accent-foreground: 25 30% 8%;
+    --accent: 35 70% 50%;
+    --accent-foreground: 20 30% 10%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
-    --border: 25 15% 20%;
-    --input: 25 15% 20%;
-    --ring: 40 70% 50%;
-    --church-warm: 25 20% 14%;
-    --church-gold: 40 70% 50%;
-    --church-dark: 40 33% 96%;
+    --border: 20 15% 22%;
+    --input: 20 15% 22%;
+    --ring: 35 70% 50%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -90,10 +83,6 @@
   }
 
   body {
-    @apply bg-background text-foreground font-body;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-display;
+    @apply bg-background text-foreground;
   }
 }
