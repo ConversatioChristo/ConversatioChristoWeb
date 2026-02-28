@@ -6,6 +6,7 @@ interface PageBlockProps {
   frameType?: "top" | "bottom" | "none";
   showTopDiamonds?: boolean;
   showBottomDiamonds?: boolean;
+  showDivider?: boolean;
 }
 
 const PageBlock = ({
@@ -14,6 +15,7 @@ const PageBlock = ({
   frameType = "none",
   showTopDiamonds = false,
   showBottomDiamonds = false,
+  showDivider = true,
 }: PageBlockProps) => (
   <section
     id={id}
@@ -49,11 +51,17 @@ const PageBlock = ({
     )}
 
     {/* Section divider diamonds */}
-    <div className="absolute w-4 h-4 bg-accent rotate-45 pointer-events-none z-10 bottom-[-1%] left-[27%]" />
-    <div className="absolute w-4 h-4 bg-accent rotate-45 pointer-events-none z-10 bottom-[-1%] left-[72%]" />
+    {showDivider && (
+      <>
+        <div className="absolute w-4 h-4 bg-accent rotate-45 pointer-events-none z-10 bottom-[-1%] left-[27%]" />
+        <div className="absolute w-4 h-4 bg-accent rotate-45 pointer-events-none z-10 bottom-[-1%] left-[72%]" />
+      </>
+    )}
 
     {/* Divider line */}
-    <div className="absolute bottom-0 left-1/2 w-[45%] h-[3px] bg-accent -translate-x-1/2" />
+    {showDivider && (
+      <div className="absolute bottom-0 left-1/2 w-[45%] h-[3px] bg-accent -translate-x-1/2" />
+    )}
 
     {/* Latin motto */}
     <div

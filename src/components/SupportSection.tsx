@@ -2,7 +2,7 @@ import PageBlock from "@/components/PageBlock";
 import NavMenu from "@/components/NavMenu";
 
 const SupportSection = () => (
-  <PageBlock id="support" frameType="bottom" showBottomDiamonds>
+  <PageBlock id="support" frameType="bottom" showBottomDiamonds showDivider={false}>
     <div className="flex flex-col items-center mt-4 mb-5">
       <h1
         className="text-primary font-normal text-3xl sm:text-[45px] leading-snug mb-1"
