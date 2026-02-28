@@ -68,7 +68,7 @@ const PageBlock = ({
       className="absolute top-10 right-4 sm:right-[30px] text-accent opacity-55 z-[15] pointer-events-none text-sm sm:text-lg tracking-wide"
       style={{ fontFamily: "'BerkahiBlackletter', serif" }}
     >
-      Domine Ostende Faciem Tuam
+      Dómine, ostende Faciem tuam, et salvi erimus
     </div>
 
     {/* Copyright */}
