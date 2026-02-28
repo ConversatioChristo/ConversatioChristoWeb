@@ -63,17 +63,17 @@ const PageBlock = ({
       <div className="absolute bottom-0 left-1/2 w-[45%] h-[3px] bg-accent -translate-x-1/2" />
     )}
 
-    {/* Latin motto */}
-    <div
-      className="absolute top-10 right-4 sm:right-[30px] text-accent opacity-55 z-[15] pointer-events-none text-sm sm:text-lg tracking-wide"
-      style={{ fontFamily: "'BerkahiBlackletter', serif" }}
-    >
-      Dómine, ostende Faciem tuam, et salvi erimus
-    </div>
-
-    {/* Copyright */}
-    <div className="absolute bottom-[2%] left-4 sm:left-[30px] text-primary opacity-55 z-[15] pointer-events-none text-xs tracking-wide font-sans">
-      © Conversatio Christo 2026
+    {/* Latin motto & Copyright - centered above bottom divider */}
+    <div className="absolute bottom-[8px] left-1/2 -translate-x-1/2 z-[15] pointer-events-none flex flex-col items-center">
+      <div
+        className="text-accent text-sm sm:text-lg tracking-wide"
+        style={{ fontFamily: "'BerkahiBlackletter', serif" }}
+      >
+        Dómine, ostende Faciem tuam, et salvi erimus
+      </div>
+      <div className="text-primary opacity-55 text-xs tracking-wide font-sans">
+        © Conversatio Christo 2026
+      </div>
     </div>
 
     {/* Page content */}
