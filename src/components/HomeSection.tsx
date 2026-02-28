@@ -15,7 +15,7 @@ const HomeSection = () => (
     </div>
 
     <div className="my-0">
-      <img src={holyFace} alt="Holy Face" className="h-[200px] sm:h-[274px] w-auto mb-2" />
+      <img src={holyFace} alt="Holy Face" className="h-[200px] sm:h-[274px] w-auto mb-6" />
     </div>
 
     <div className="w-full text-center">
