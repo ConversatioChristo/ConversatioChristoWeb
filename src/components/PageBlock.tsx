@@ -31,7 +31,7 @@ const PageBlock = ({
       <div className="absolute top-[30px] bottom-[30px] w-full left-1/2 -translate-x-1/2 pointer-events-none z-[1] border-t-[3px] border-accent shadow-[inset_0_10px_12px_-10px_rgba(0,0,0,0.75)]" />
     )}
     {frameType === "bottom" && (
-      <div className="absolute top-[30px] bottom-[30px] w-full left-1/2 -translate-x-1/2 pointer-events-none z-[1] border-b-[3px] border-accent shadow-[inset_0_-10px_12px_-10px_rgba(0,0,0,0.75)]" />
+      <div className="absolute top-[30px] bottom-[10px] w-full left-1/2 -translate-x-1/2 pointer-events-none z-[1] border-b-[3px] border-accent shadow-[inset_0_-10px_12px_-10px_rgba(0,0,0,0.75)]" />
     )}
 
     {/* Top diamonds */}
