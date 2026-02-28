@@ -7,7 +7,6 @@ import event3 from "@/assets/Sep2025_CCsinging.png";
 const events = [
   { src: event1, alt: "September 2025 CC Group" },
   { src: event2, alt: "November 2025 CC Singing" },
-  { src: event3, alt: "September 2025 CC Singing" },
 ];
 
 const EventsSection = () => (
