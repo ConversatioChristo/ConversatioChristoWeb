@@ -48,6 +48,10 @@ const PageBlock = ({
       </>
     )}
 
+    {/* Section divider diamonds */}
+    <div className="absolute w-4 h-4 bg-accent rotate-45 pointer-events-none z-10 bottom-[-1%] left-[27%]" />
+    <div className="absolute w-4 h-4 bg-accent rotate-45 pointer-events-none z-10 bottom-[-1%] left-[72%]" />
+
     {/* Divider line */}
     <div className="absolute bottom-0 left-1/2 w-[45%] h-[3px] bg-accent -translate-x-1/2" />
 
