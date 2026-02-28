@@ -11,7 +11,7 @@ const HomeSection = () => (
         <img src={titleImage} alt="Conversatio Christo Title" className="h-10 sm:h-[60px] w-auto" />
       </a>
       <NavMenu />
-      <img src={goldenArrow} alt="Golden Arrow" className="w-[201px] mt-1 opacity-100 block" />
+      
     </div>
 
     <div className="my-0">
