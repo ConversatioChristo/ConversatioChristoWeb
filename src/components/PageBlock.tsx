@@ -64,9 +64,9 @@ const PageBlock = ({
     )}
 
     {/* Latin motto & Copyright - centered above bottom divider */}
-    <div className="absolute bottom-[8px] left-1/2 -translate-x-1/2 z-[15] pointer-events-none flex flex-col items-center">
+    <div className="absolute bottom-[8px] left-1/2 -translate-x-1/2 z-[15] pointer-events-none flex flex-col items-center w-full max-w-none">
       <div
-        className="text-accent text-sm sm:text-lg tracking-wide"
+        className="text-accent text-sm sm:text-lg tracking-wide whitespace-nowrap"
         style={{ fontFamily: "'BerkahiBlackletter', serif" }}
       >
         Dómine, ostende Faciem tuam, et salvi erimus
