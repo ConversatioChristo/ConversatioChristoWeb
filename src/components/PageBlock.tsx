@@ -77,7 +77,7 @@ const PageBlock = ({
     </div>
 
     {/* Page content */}
-    <div className="relative w-full max-w-[600px] px-4 sm:px-[30px] pt-[70px] pb-[80px] flex flex-col items-center text-center z-[5] box-border">
+    <div className="relative w-full max-w-[600px] px-4 sm:px-[30px] pt-[40px] pb-[60px] flex flex-col items-center text-center z-[5] box-border">
       {children}
     </div>
   </section>
