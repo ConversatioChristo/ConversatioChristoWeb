@@ -22,7 +22,7 @@ const EventsSection = () => (
     </div>
 
     {/* Scrollable gallery */}
-    <div className="mt-6 sm:mt-10 max-h-[300px] sm:max-h-[370px] overflow-y-auto snap-y snap-mandatory flex flex-col gap-6 sm:gap-8">
+    <div className="mt-6 sm:mt-10 flex flex-col gap-6 sm:gap-8">
       {events.map((event, i) => (
         <div key={i} className="snap-start flex justify-center items-center">
           <img
