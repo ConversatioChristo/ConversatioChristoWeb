@@ -19,7 +19,7 @@ const HolyFaceSection = () => (
       <NavMenu />
     </div>
 
-    <div className="w-full overflow-y-auto max-h-[350px] sm:max-h-[425px] mt-5 px-2">
+    <div className="w-full mt-5 px-2 overflow-visible max-h-none xl:max-h-[425px] xl:overflow-y-auto">
       <p
         className="text-primary text-xs sm:text-lg leading-relaxed mx-auto max-w-[510px] text-justify"
         style={{ fontFamily: "'Times New Roman', Times, serif" }}
